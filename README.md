@@ -63,10 +63,10 @@ This project entails the exploratory data analysis of industrial facilities' com
     ```
 
 ## 🏃 Usage <a name="usage"></a>
-* **For a Jupyter Notebook analysis:**
-    "The full analysis can be viewed and executed in the `main.ipynb` notebook. Press `Ctrl + Enter` (for Windows) (or `Cmd + Enter` on macOS) to run each cell."
-* **For a Streamlit app:**
-    "To view the interactive app, run the following command in your terminal:"
+* **Jupyter Notebook:**
+    The full analysis can be viewed and executed in the `main.ipynb` notebook. Press `Ctrl + Enter` (for Windows) (or `Cmd + Enter` on macOS) to run each cell.
+* **Streamlit app:**
+    To view the interactive app, run the following command in your terminal:
     ```sh
     cd app_deploy # to navigate to the app_deploy folder
     streamlit run app.py
