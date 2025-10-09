@@ -5,10 +5,10 @@
 This project entails the exploratory data analysis of industrial facilities' combustion energy use for 2014. The primary objective is to discover valuable and actionable insights from the dataset on combustion energy use to help reduce energy inefficiencies in the industries covered. The entire project was executed in Python, using libraries such as Pandas for data manipulation, Matplotlib and Seaborn for data visualization, Plotly for creating dynamic visualizations, and Streamlit to deploy a web-based dashboard for data reporting.
 
 ## 🎯 Table of Contents
-- [Project Overview](#project-overview)
-- [Data Source](#data-source)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
+- [Project Overview](#project%20overview)
+- [Data Source](#data%20source)
+- [Project Structure](#project%20structure)
+- [Getting Started](#getting%20started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
