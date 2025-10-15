@@ -14,7 +14,7 @@ pio.renderers.default = "browser"
 @st.cache_data
 def load_combustion__energy_dataset():
     # loading the dataset from the file system
-    df = pd.read_csv('../data_source/IndustrialCombEnergy_2014.csv', encoding="ANSI")
+    df = pd.read_csv('../data_source/IndustrialCombEnergy_2014_utf-8_version.csv', encoding="utf-8")
     # returning the loaded dataset as output
     return df
 
