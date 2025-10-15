@@ -52,7 +52,7 @@ Explore the different sections using the **Navigation Menu**.
 """)
 st.markdown("[Link to the Source Code on GitHub](https://github.com/Oluwatobi-coder/Exploratory-Data-Analysis-Industrial-Facility-Combustion-Energy-Use-2014)")
 st.markdown("**Author**: Bello Oluwatobi")
-st.markdown("**Last Updated on**: 6th October, 2025")
+st.markdown("**Last Updated on**: 15th October, 2025")
 # adding a visual separator
 st.markdown("---")
 
