@@ -54,7 +54,7 @@ This project entails the exploratory data analysis of industrial facilities' com
 ### Installation <a name="installation"></a>
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/Oluwatobi-coder/Exploratory-Data-Analysis-Industrial-Facility-Combustion-Energy-Use-2014.git](https://github.com/Oluwatobi-coder/Exploratory-Data-Analysis-Industrial-Facility-Combustion-Energy-Use-2014.git)
+    git clone https://github.com/Oluwatobi-coder/Exploratory-Data-Analysis-Industrial-Facility-Combustion-Energy-Use-2014.git
     cd Exploratory-Data-Analysis-Industrial-Facility-Combustion-Energy-Use-2014
     ```
 2.  **Install the required packages:**
