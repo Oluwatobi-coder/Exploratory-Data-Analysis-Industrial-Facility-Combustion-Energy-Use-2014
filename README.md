@@ -38,7 +38,11 @@ This project entails the exploratory data analysis of industrial facilities' com
 ├── app_deploy/
 │   └── initial_exploration.ipynb
 ├── data_source/
+│   └── IndustrialCombEnergy_2014_utf-8_version.csv
 │   └── IndustrialCombEnergy_2014.csv
+├── utils/
+│   └── file_encoding_converter.py
+│   └── file_encoding_detector.py
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
