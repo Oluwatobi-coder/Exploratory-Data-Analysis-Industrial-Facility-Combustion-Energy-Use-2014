@@ -4,6 +4,7 @@ import plotly.express as px # for Plotly visualizations using high-level interfa
 import plotly.io as pio # for displaying and saving Plotly figures
 import pandas as pd # for data manipulation and analysis with DataFrames
 import numpy as np # for numerical operations and array manipulation
+import os
 
 
 # setting the opening of Plotly charts in a browser tab
@@ -13,8 +14,11 @@ pio.renderers.default = "browser"
 # setting the helper function to load data (cached for performance)
 @st.cache_data
 def load_combustion__energy_dataset():
-    # loading the dataset from the file system
-    df = pd.read_csv('../data_source/IndustrialCombEnergy_2014_utf-8_version.csv', encoding="utf-8")
+    # importing the dataset from the file system, accounting for relative and absolute paths and specifying file encoding
+    try:
+        df = pd.read_csv("data_source/IndustrialCombEnergy_2014_utf-8_version.csv", encoding="utf-8")
+    except Exception as e:
+        df = pd.read_csv("../data_source/IndustrialCombEnergy_2014_utf-8_version.csv", encoding="utf-8")
     # returning the loaded dataset as output
     return df
 
