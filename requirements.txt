@@ -7,3 +7,4 @@ plotly
 streamlit
 chardet
 altair==4.2.2
+standard-imghdr
