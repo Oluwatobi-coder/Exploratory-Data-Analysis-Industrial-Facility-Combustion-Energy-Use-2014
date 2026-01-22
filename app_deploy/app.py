@@ -7,6 +7,10 @@ import numpy as np # for numerical operations and array manipulation
 import os
 
 
+# setting the page meta title
+st.set_page_config(page_title='EDA Analysis on U.S. Industrial Facility Combustion Energy Use', page_icon="🏭",
+                   layout="wide")
+
 # setting the opening of Plotly charts in a browser tab
 pio.renderers.default = "browser"
 
@@ -36,12 +40,6 @@ transformed_df.replace({'COGENERATION_UNIT_EMISS_IND': {'Y': 'Yes', 'N': 'No'}},
 # dropping the records having null values
 cleaned_df = transformed_df.dropna(ignore_index=True)
 
-
-
-
-# setting the page meta title
-st.set_page_config(page_title='EDA Analysis on U.S. Industrial Facility Combustion Energy Use', page_icon="🏭",
-                   layout="wide")
 
 
 # setting up the page header
