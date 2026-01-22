@@ -24,7 +24,7 @@ def load_combustion__energy_dataset():
     except Exception as e:
         df = pd.read_csv("../data_source/IndustrialCombEnergy_2014_utf-8_version.csv", encoding="utf-8")
     # returning the loaded dataset as output
-    return df
+    return df.astype(str)
 
 # getting the loaded dataset via the function call
 raw_df = load_combustion__energy_dataset()
